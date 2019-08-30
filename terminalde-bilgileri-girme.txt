@@ -1,0 +1,8 @@
+#ilk olarak isim girme şu şekildedir:
+--> git config --global user.name "name"
+#e-posta adresimiz
+--> git config --global user.email "name@name.com"
+#belirleyeceğimiz editör
+--> git config --global core.editor "vim"
+
+# parametreyi belirtmezsek varsayılan olarak seçili olan localde kalır bilgiler (--local gibi), dolayısıyla --global parametresiyle belirtiyoruz.
