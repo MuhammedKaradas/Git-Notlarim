@@ -1,11 +1,19 @@
+
 Öncelikle Github üzerinden oluşturduğumuz depoyu(repository) yerelimize(local) kopyalayalım.
+
 ---> git clone https://github.com/username/reponame
 
+
 Depo isminde dizin oluşacaktır
+
 ---> cd reponame
 
+
 Değişikliklerimizi yaptıktan sonra Github üzerine yollayabiliriz.
+
 ---> git add --all // yaptığımız değişiklerin hepsini seçiyoruz
+
 --> git commit -m "Yaptığımız Değişiklikleri Belirten Özet" //ardında kısa bir özet ile ifade ediyoruz.
+
 -> git push -u origin master //ana şubeye (master) ittiriyoruz :D yani gönderiyoruz.
 
