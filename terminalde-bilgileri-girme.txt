@@ -1,8 +1,19 @@
 #ilk olarak isim girme şu şekildedir:
 --> git config --global user.name "name"
+
 #e-posta adresimiz
 --> git config --global user.email "name@name.com"
+
 #belirleyeceğimiz editör
 --> git config --global core.editor "vim"
 
+ /*Windows sistemlerde belirtirken PATH değerini eklemeyi unutmamalıyız.
+
+ Örneğin Notepad++ seçeceksek öncelikle
+
+ Sistem Ayarlarından -> Ortam Değişkenleri -> PATH (düzenle) -> yeni ekle (C:\Program Files\Notepad++ aşağı yukarı böyle :) )
+
+ Daha sonra cmd'den notepad++ yazarak test edebiliriz.*/
+
 # parametreyi belirtmezsek varsayılan olarak seçili olan localde kalır bilgiler (--local gibi), dolayısıyla --global parametresiyle belirtiyoruz.
+
